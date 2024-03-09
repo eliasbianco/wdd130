@@ -3,11 +3,7 @@
 font-family: "Madimi One", sans-serif; */
 
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
+
 
 
 :root {
@@ -24,6 +20,15 @@ body {
     --nav-background-color: #F1FAEE;
     --nav-hover-background-color: #E63946;
 }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
