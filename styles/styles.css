@@ -57,8 +57,9 @@
     color: #000;
    }
    aside {
-    width: 20em;
+    width: 25em;
     text-align: center;
+    position: relative;
    }
    main img {
     float: right;
