@@ -3,6 +3,7 @@
 font-family: "Madimi One", sans-serif; */
 
 
+
 :root {
     --primary-color: #E63946;
     --secondary-color: #F1FAEE;
@@ -17,6 +18,7 @@ font-family: "Madimi One", sans-serif; */
     --nav-background-color: #F1FAEE;
     --nav-hover-background-color: #E63946;
 }
+
 
 body {
     font-family: var(--paragraph-font); 
@@ -59,21 +61,146 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-.hero img {
+
+
+.hero {
+    position: relative;
+
+}
+
+.heroimage {
     display: block;
     width: 100%;
     height: auto;
 }
-
-.hero {
-    position: relative;
-}
-h1 {
+/* h1 {
     position: absolute;
 }
 article {
     position: absolute;
 }
-article.img {
+article img {
     position: absolute;
+    right: 1px;
+    width: 10em;
+} */
+/*---------------------------------------------------------------About us-------------------------------------------------*/
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+nav {
+    display: flex;
+}
+
+
+
+ .happyclient{
+    position: absolute;
+    margin: 10px;
+    top: 100px;
+    background-color: #A8DADC;
+    padding-bottom: 10px;
+
+    
+ }
+ 
+
+ .happyclient p {
+    float : flex;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+ }
+
+.aboutmain h1{
+    position: absolute; 
+    top: 0;
+    right: 21rem;
+    background-color: #A8DADC;
+}
+
+
+.happyclient img {
+    position: absolute;
+    width: 10em;
+    height: auto;
+    right: 1px;  
+    float: inline-end;
+} 
+
+
+
+/* .history{
+
+} */
+
+.adventure h2{
+    text-align:  center;
+    grid-column:3/4; 
+
+}
+.adventure img{
+    box-sizing: border-box;
+    width: 10em;
+    height: auto;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.adventure{
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr ;
+    
+}
+
+figure{
+    grid-row: 2/3;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+.sociallinks a img {
+    width: 30px;
+}
+
+.sociallinks{
+    
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/*HISTORY*/
+
+.history h2 {
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: #E63946;
+    display: grid;
+    grid-template-columns: 5fr 2fr ;
+    grid-template-rows: 1fr;
+}
+
+footer p {
+    text-align: center;
 }
