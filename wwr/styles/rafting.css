@@ -330,5 +330,18 @@ footer p {
     padding: 5px;
 }
 
-/*-------------TRIPS----------------------------*/
+/*-------------INDEX----------------------------*/
 
+.homesection2{
+    border: 3px solid  #0B595B;
+    background-color: rgba(0, 255, 255, 0.136);
+    margin: 10px;
+}
+
+.adventurehome {
+    border: 1px solid rgb(21, 105, 126);
+    padding: 15px;
+    background-color:  rgba(0, 255, 255, 0.136);
+    justify-content: center;
+    align-self: center;
+}
